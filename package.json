@@ -7,7 +7,7 @@
     },
     "main": "serverside.js",
     "scripts": {
-      "start": "node serverside.js"
+      "start": "node server.js"
     },
     "repository": {
       "type": "git",
