@@ -8,9 +8,8 @@ const port = process.env.PORT || 3002
 const server = http.createServer((req, res) => {
   res.statusCode = 200
   res.setHeader('Content-Type', 'text/plain')
-  res.write('Hi there !!!\n')
-  res.write('Its just a demo to cheak how to deploy an app in heroku \n')
-  res.write('- Santhosh Kumar Bollena  \n');
+  res.write('Hello!\n')
+
   res.end('Hello World! This is text - we can respond with HTML, JSON, and more :)\n')
 })
 
