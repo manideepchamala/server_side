@@ -1,0 +1,21 @@
+{
+    "name": "examaple-of-node-js-server-side",
+    "version": "0.3.0",
+    "description": "node-js-server-side-sample",
+    "engines": {
+      "node": "10.x"
+    },
+    "main": "serverside.js",
+    "scripts": {
+      "start": "node serverside.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/manideepchamala/server_side"
+    },
+    "keywords": [
+      "node",
+      "heroku"
+    ],
+    "license": "None"
+  }
